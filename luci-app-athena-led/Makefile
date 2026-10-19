@@ -37,7 +37,4 @@ endef
 
 include $(TOPDIR)/feeds/luci/luci.mk
 
-# This command is always the last, it uses the definitions and variables we give above in order to get the job done
-$(eval $(call BuildPackage,$(PKG_NAME)))
-
 
