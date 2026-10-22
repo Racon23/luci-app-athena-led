@@ -1,6 +1,14 @@
 # luci-app-athena-led
 jdCloud ax6600 led screen ctrl
 
+#### 用法
+```
+cp feeds.conf.default feeds.conf
+cat >> feeds.conf <<EOF
+src-git athena_led https://github.com/Racon23/luci-app-athena-led.git
+EOF
+```
+
 #### 定时关闭开启代码
 
 ```
